@@ -1,0 +1,109 @@
+█ [ /Users/Calvin/Develop/githubs/jieyuan/Vue-jieyuan ] ls
+README.md
+build
+dist
+node_modules
+package.json
+src
+terminal.glue
+test
+
+█ [ /Users/Calvin/Develop/githubs/jieyuan/Vue-jieyuan ] ls
+README.md
+build
+dist
+node_modules
+package.json
+src
+terminal.glue
+test
+
+█ [ /Users/Calvin/Develop/githubs/jieyuan/Vue-jieyuan ] ls
+README.md
+build
+dist
+node_modules
+package.json
+src
+terminal.glue
+test
+
+█ [ /Users/Calvin/Develop/githubs/jieyuan/Vue-jieyuan/build ] cd build
+/Users/Calvin/Develop/githubs/jieyuan/Vue-jieyuan/build
+
+█ [ /Users/Calvin/Develop/githubs/jieyuan/Vue-jieyuan/build ] ls
+dev-server.js
+karma.conf.js
+webpack.base.conf.js
+webpack.dev.conf.js
+webpack.prod.conf.js
+
+█ [ /Users/Calvin/Develop/githubs/jieyuan/Vue-jieyuan/build ] ls
+dev-server.js
+karma.conf.js
+webpack.base.conf.js
+webpack.dev.conf.js
+webpack.prod.conf.js
+
+█ [ /Users/Calvin/Develop/githubs/jieyuan/Vue-jieyuan ] cd ..
+/Users/Calvin/Develop/githubs/jieyuan/Vue-jieyuan
+
+█ [ /Users/Calvin/Develop/githubs/jieyuan/Vue-jieyuan ] ls
+README.md
+build
+dist
+node_modules
+package.json
+src
+terminal.glue
+test
+
+█ [ /Users/Calvin/Develop/githubs/jieyuan/Vue-jieyuan ] npm run dev
+
+> my-project@ dev /Users/Calvin/Develop/githubs/jieyuan/Vue-jieyuan
+> node build/dev-server.js
+
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 127.0.0.1:9807
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1237:14)
+    at listen (net.js:1273:10)
+    at net.js:1382:9
+    at GetAddrInfoReqWrap.asyncCallback [as callback] (dns.js:63:16)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:82:10)
+
+npm ERR! Darwin 15.0.0
+npm ERR! argv "/Users/Calvin/.nvm/versions/node/v4.3.0/bin/node" "/Users/Calvin/.nvm/versions/node/v4.3.0/bin/npm" "run" "dev"
+npm ERR! node v4.3.0
+npm ERR! npm  v2.14.12
+npm ERR! code ELIFECYCLE
+npm ERR! my-project@ dev: `node build/dev-server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the my-project@ dev script 'node build/dev-server.js'.
+npm ERR! This is most likely a problem with the my-project package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node build/dev-server.js
+npm ERR! You can get their info via:
+npm ERR!     npm owner ls my-project
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /Users/Calvin/Develop/githubs/jieyuan/Vue-jieyuan/npm-debug.log
+
+█ [ /Users/Calvin/Develop/githubs/jieyuan/Vue-jieyuan ] ls
+README.md
+build
+dist
+node_modules
+npm-debug.log
+package.json
+src
+terminal.glue
+test
+
