@@ -2,9 +2,11 @@
 
 > A Vue.js project
 
+> for practic
+
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
